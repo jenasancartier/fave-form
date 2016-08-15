@@ -41,3 +41,16 @@ $(document).ready(function() {
   });
 
 });
+
+
+
+$(document).ready(function() {
+
+  var flavors = ["chocolate", "strawberry"];
+
+  flavors.forEach(function(flavor){
+    $(".flavors").append(flavor + " is yummy!<br>");
+  });
+
+
+});
